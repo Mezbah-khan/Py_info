@@ -9,4 +9,4 @@ class mezbah :<br>
         # lewts create  the body structure of this functions # 
 s1= mezbah("mezbah khan",18)<Br>
 print(s1.name)<br>
-print(s1.age)<br>
+print(s1.age)<br> 
