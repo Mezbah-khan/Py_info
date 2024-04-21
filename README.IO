@@ -28,3 +28,23 @@ class mezbah :
 s1= mezbah()
 s2=mezbah() 
    # this is a lopp function # 
+   # lets create a another fuunction loopp as car modify and car1 blue print creating # 
+class car :
+    @staticmethod
+    def start():
+        print("car started")
+        
+    @staticmethod
+    def stop():
+        print("car stopped")
+
+class kotora(car):
+    def __init__(self,name):
+        self.name= name 
+
+car1= kotora("marcidus")
+car2= kotora("bike")
+print(car1.name)
+print(car1.start())
+
+
