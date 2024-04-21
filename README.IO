@@ -29,6 +29,10 @@ s1= mezbah()
 s2=mezbah() 
    # this is a lopp function # 
    # lets create a another fuunction loopp as car modify and car1 blue print creating # 
+# hey python thiis is mezbah khan from backend developer # 
+# lets create the functions with cars details and modify it # 
+# lets do it and  ruuned a profatiable code  # 
+
 class car :
     @staticmethod
     def start():
@@ -45,6 +49,40 @@ class kotora(car):
 car1= kotora("marcidus")
 car2= kotora("bike")
 print(car1.name)
+print(car1.start())
+ # lets talk about inheritance model in python # 
+ # lets do it # 
+ 
+class age :
+    @staticmethod
+    def age ():
+        print("can voted")
+class age1 (age):
+    @staticmethod
+    def age1():
+        print("cant voted")
+    
+class check(age1):
+    def __init__(self,name):
+        self.name= name
+        
+voting = check("mezbAH KHAN")
+print(voting.name)
+print(voting.age1())
+print(voting.age())
+
+ # okH LETS CHANGE THE NAME  IN CLASS # 
+class person :
+    name = "isitak "
+    
+    def changename (self,name):
+        self.__class__.name= "mezbah khan"
+        
+p1= person()
+p1.changename("mezbah khan")
+print(p1.name)
+
+
 print(car1.start())
 
 
