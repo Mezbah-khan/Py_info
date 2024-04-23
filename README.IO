@@ -1,4 +1,4 @@
-# Hello wrold ,this is mezbah khan from backend developer # 
+# Hello wrold,this is mezbah khan from backend developer # 
 # lets creaate a new repository and write additions fdunctions in it # 
 # lets do it # 
 class mezbah :<br>
@@ -28,7 +28,8 @@ class mezbah :
 s1= mezbah()
 s2=mezbah() 
    # this is a lopp function # 
-   # lets create a another fuunction loopp as car modify and car1 blue print creating # 
+<br>
+# lets create a another fuunction loopp as car modify and car1 blue print creating # 
 # hey python thiis is mezbah khan from backend developer # 
 # lets create the functions with cars details and modify it # 
 # lets do it and  ruuned a profatiable code  # 
