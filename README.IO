@@ -82,8 +82,76 @@ class person :
 p1= person()
 p1.changename("mezbah khan")
 print(p1.name)
-
-
 print(car1.start())
 
+# hey python this is mezbah khan from backend developer #
+# lets create a list and use the methods as perfomence # 
+# lets od this and build a runnable code # 
 
+mezbah = [2,17,345,8564,19087]  # this is our frist list [1]
+istiak = ["mezbah_khan","noman_bhai","tomo_bhai","sagor_bhai","mamun_bhai"]  # this is secend list [2]
+
+# frist lets check  this  list type #
+print(type(mezbah))  
+print(type(istiak))
+    # All good, lets create our operations # 
+    # frist lets use the indexing methodds # 
+    # this is mezbah's example 
+ex_mezbah01 = mezbah.copy()
+print(ex_mezbah01[0])
+print(ex_mezbah01[4])
+
+# this is istiak's example 
+ex_istiak01 = istiak.copy()
+print(ex_istiak01[0])
+print(ex_istiak01[2]) 
+
+# we ahve use the indexing methods # 
+# lets methods in indexing py list # 
+
+ex_mezbah02 = mezbah.copy()
+print (ex_mezbah02[0:])
+print (ex_mezbah02[:5])
+print(ex_mezbah02[0:3])
+print(ex_mezbah02[2:3])
+print(ex_mezbah02[2:5])
+
+# lets find one of indexes with methods # 
+print(ex_mezbah02.index(345))
+
+ # this is for istiak example # 
+ex_istiak02= istiak.copy()
+print(ex_istiak02[0:])
+print(ex_istiak02[:5])
+print(ex_istiak02[0:3])
+print(ex_istiak02[2:3])
+print(ex_istiak02[1:4])
+
+# lets find one of indexes with methods #
+print(ex_istiak02.index("tomo_bhai"))
+
+# this all indexing method in py as list function # 
+# lets add some value in this list with apppend methods # 
+
+ex_mezbah03= mezbah.copy()
+ex_mezbah03.append(176523)
+print(ex_mezbah03)
+
+# this is example of istiak # 
+ex_istiak03= istiak.copy()
+ex_istiak03.append ("sakil_bhai")
+print(ex_istiak03)
+
+# the apppend method is worked 
+# lets used the insert method 
+ex_mezbah04= mezbah.copy()
+ex_mezbah04.insert(1,1256)
+print(ex_mezbah04)
+
+# this is example of istiak #
+ex_istiak04= istiak.copy()
+ex_istiak04.insert(2,"shimul_bahi")
+print(ex_istiak04)
+
+# yaaah the code is worked # 
+# lets do another 
