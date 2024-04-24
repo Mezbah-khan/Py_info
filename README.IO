@@ -88,7 +88,7 @@ print(car1.start())
 # lets create a list and use the methods as perfomence # 
 # lets od this and build a runnable code # 
 
-mezbah = [2,17,345,8564,19087]  # this is our frist list [1]
+mezbah = [2,17,345,85,64,19087]  # this is our frist list [1]
 istiak = ["mezbah_khan","noman_bhai","tomo_bhai","sagor_bhai","mamun_bhai"]  # this is secend list [2]
 
 # frist lets check  this  list type #
@@ -154,4 +154,138 @@ ex_istiak04.insert(2,"shimul_bahi")
 print(ex_istiak04)
 
 # yaaah the code is worked # 
-# lets do another 
+# lets do another method named extend in PYTHON # 
+ex_mezbah05= mezbah.copy()
+ex_another01= [21,32,43]
+ex_mezbah05.extend(ex_another01)
+print(ex_mezbah05)
+
+# this  is istiak example # 
+ex_istiak05= istiak.copy()
+ex_another02 =["akash_bhai",'dolon_bhai']
+ex_istiak05.extend(ex_another02)
+print(ex_istiak05)
+
+# The code is sussesfully worked and runnable code # 
+# lets do another method named remove in PYTHON #
+ex_mezbah06= mezbah.copy()
+ex_mezbah06.remove(2)
+print(ex_mezbah06)
+
+ # this is istiak example #
+ex_istiak06= istiak.copy()
+ex_istiak06.remove("noman_bhai")
+print(ex_istiak06)
+ 
+ # the rmove method is succesfully worked #
+ # lets create an example of pop method in PYTHON # 
+
+ex_mezbah07= mezbah.copy()
+ex_mezbah07.pop(1)
+print(ex_mezbah07)
+
+# this is example of istiak # 
+ex_istiak07= istiak.copy()
+ex_istiak07.pop(3)
+print(ex_istiak07)
+
+# the code is worked so lets move on the next method # 
+# lets create an example of delete method in PYTHON #
+# we are going to use the (del) method # 
+
+ex_mezbah08= mezbah.copy()
+del ex_mezbah08[4] # remove index 
+print(ex_mezbah08)
+
+#this is example of istiak #
+ex_istiak08 = istiak.copy()
+del ex_istiak08[4]
+print(ex_istiak08)
+
+# the code os worked so lets move to the next method # 
+# lets create a another method of clean funtion # 
+# lests do it # 
+ex_mezbah09= mezbah.copy()
+ex_mezbah09.clear()
+print(ex_mezbah09)
+ 
+ # the code is worked # 
+ # this is example of istiak # 
+ex_istiak09= istiak.copy()
+ex_istiak09.clear()
+print(ex_istiak09)
+ 
+ # both code is successfully worked SO # 
+#  lets jumped the another method callled modify function # 
+# lets do this # 
+ex_mezbah010 = mezbah.copy()
+ex_mezbah010[3] = 23901
+print (ex_mezbah010)
+
+# we should pratice the modify method method more #
+
+ex_mezbah010[2]= 1090910
+print(ex_mezbah010)
+
+# this is example of istiak # 
+ex_istiak010 =istiak.copy()
+ex_istiak010[2]= "mezbah_khan"
+print(ex_istiak010)
+
+ # we should pratice the modify method method more #
+ex_istiak010[1]='istiak_bhai'
+print(ex_istiak010)
+ 
+ # both code is succesfully worked so lets try a another game # 
+ # lets create example of list length methods in PYTHON # 
+ 
+ex_mezbah11= mezbah.copy()
+print(ex_mezbah11.count(2))
+print(ex_mezbah11.count(17))
+
+# this is example of istiak #
+ex_istiak11= istiak.copy()
+print(ex_istiak11.count("mamun_bhai"))
+print(ex_istiak11.count("tomo_bhai"))
+
+# The example is outstanding so lets create a another projects # 
+# lets try the sort method in python # 
+ex_mezbah12= mezbah.copy()
+ex_mezbah12.sort()
+print(ex_mezbah12)
+
+# this is example of istiak #
+# the sort method use to colllec values by srials # 
+
+# so lets try the reverse method in python #
+
+ex_mezbah13 = mezbah.copy()
+ex_mezbah13.reverse()
+print(ex_mezbah13)
+
+# this is example of istiak #
+ex_istiak13 = istiak.copy()
+ex_istiak13.reverse()
+print(ex_istiak13)
+
+# both code is worked so lets try a another game #
+# lets try last 2 methods like (len) list python # 
+
+ex_mezbah14 = mezbah.copy()
+print(len(ex_mezbah14))
+
+# this is example of istiak #
+
+ex_istiak14 = istiak.copy()
+print(len(ex_istiak14))
+
+# this is last method of python list function # 
+# we are going fan in this code  and thats is (type)
+
+ex_mezbah15= mezbah.copy()
+ex_istiak15= istiak.copy()
+
+print(type(ex_mezbah15))
+print(type(ex_istiak15))
+
+# This is complete version of list function and methods in python # 
