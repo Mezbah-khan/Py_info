@@ -290,46 +290,5 @@ print(type(ex_istiak15))
 
 # This is complete version of list function and methods in python # 
 
-## hey python this is mezbah khan from backend developer # 
-# lets pratice the file input / output in python system # 
-# lets open a file in python #
-
-with open ("demo.txt",'w') as file :
-    data = file .write('This is file of i /o\n')
-    new_data = file.write('This is mezbah khan from backend developer\n')
-    new_data = file.write('This is my first file in python\t and im working to builds a projects')
-    
-    # we have alrady use one of the most useable methods # 
-    # lets try an another methods in python # 
-    
-file01 = open ("demo.txt",'w') 
-content= file01.write("The file i/o use to add,remove or slice any data in another files\n ")
-content= file01.write("There are many methods in file i /o and the is useally create operation in random file \n")
-print(content)
-file01.close()
-
- # lets add some daata in demo.txt with methods # 
- # we have to use the write methods for this operation # 
- 
-with open ("demo.txt",'w') as file :
-    new_data= file.write("we can use this method in server \n")
-    new_data = file.write("Developer use this for updating there files\n")
-    new_data = file.write("THIS is all data for changes")
-    
-    # lets read the data and print ddata # 
-file01 = open ("demo.txt","r")
-read01= file01.read()
-print(read01)
-
-    # use the r+ in py # 
-read02= file01.readline()
-print(read02)
-
-# use the readable method in pyrtthon # 
-read03 = file01.readable()
-print(read03)
-
-# use 
-
 
 
