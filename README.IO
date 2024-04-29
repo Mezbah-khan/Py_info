@@ -8,8 +8,10 @@ istiak = ["mezbah_khan","noman_bhai","tomo_bhai","sagor_bhai","mamun_bhai"]  # t
 # frist lets check  this  list type #
 print(type(mezbah))  
 print(type(istiak))
+
     # All good, lets create our operations # 
     # frist lets use the indexing methodds # 
+
     # this is mezbah's example 
 ex_mezbah01 = mezbah.copy()
 print(ex_mezbah01[0])
@@ -202,13 +204,14 @@ ex_istiak15= istiak.copy()
 print(type(ex_mezbah15))
 print(type(ex_istiak15))
 
+                 Dictonary in py (dict key) 
+
 # This is complete version of list function and methods in python # 
 # hey python this is mezbah khan from backeend developer # 
 # lets create a project on github account and design with codes # 
 # lets do this using with dict key-value pair # 
 
 mezbah ={
-    
     "name" :  "mezbah khan",
     "age" : 18,
     "is_adult" : True,
@@ -222,14 +225,10 @@ mezbah ={
     "dev_lan": ["python", "javascript"],
     "dev_fram": ["Tensorflow", "flask"],
     "Collage" : "Bm collage",
-    "Collage_passing_year" : 2023,
-    
-    
-}
+    "Collage_passing_year" : 2023}
 
    # lets create the operation in python set file of dict key value pair # 
-   
-print(type(mezbah))
+    print(type(mezbah))
 
  # lets start to go # 
 # frist lets use the (acressing method * 3) # 
@@ -252,7 +251,6 @@ ex_mezbah03= mezbah.copy()
     
 ex1 = ex_mezbah03.get('name')
 print(ex1)
-
 ex2= ex_mezbah03.get('dev_lan')
 print(ex2)
 
@@ -300,7 +298,62 @@ ex11 = ex_mezbah07.update({"NiD" : "Bangali"})
 print(ex_mezbah07)
 
 # yahh update method is successfully workeds so lets try an other method #
-# this is all methods of python dict key value pair #
+# this is all methods of python dict key value pair 
+
+               File input/output (Io) 
+
+# hey python this is mezbah khan from backend developer # 
+# lets create a file i /oo and use operations # 
+# lets do this and build a successful code 3 
+
+with open ("demo.txt","w") as file :
+    data = file .write("Hello world\n")
+    data = file .write("This is mezbah khan\t from backend developer\n")
+    print(data)
+    
+with open ("demo.txt",'at') as file :
+    data = file .write("Im from python background.\n")
+    data =file .write("Im work in microsoft as a machine learning expert\n")
+    print(data)
+    
+    # Now i want too read the files # 
+    # So use the methods for reading line # 
+
+text = open("demo.txt",'rt')
+text = text.read()
+print(text)
+
+ # we have to use the reasdlines methods in order to read the lines #
+ # lets create an (text) and use the resdlines in the operations # 
+text= open("demo.txt","r+")
+text = text.readlines()
+print(text)
+
+# we have used, lets use the append methods in python file again # 
+# lets do this and build a successful code # 
+
+text = open ("demo.txt",'+a')
+ex_data = text.write("IM Closing the files forever\t")
+ex_data = text.write ("goodbye")
+print(ex_data)
+# lets finish this game by deleting this file # 
+
+import os
+# Specify the file path
+import os
+os.remove("demo.txt")
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
