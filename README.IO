@@ -281,8 +281,7 @@ ex_mezbah12.sort()
 print(ex_mezbah12)
 
 # this is example of istiak #
-# the sort method use to colllec values by srials # 
-
+# the sort method use to colllect values by serially # 
 # so lets try the reverse method in python #
 
 ex_mezbah13 = mezbah.copy()
@@ -314,7 +313,7 @@ ex_istiak15= istiak.copy()
 print(type(ex_mezbah15))
 print(type(ex_istiak15))
 
-                 Dictonary in py (dict key) 
+                 Dictonary in python (dict key) 
 
 # This is complete version of list function and methods in python # 
 # hey python this is mezbah khan from backeend developer # 
@@ -410,11 +409,142 @@ print(ex_mezbah07)
 # yahh update method is successfully workeds so lets try an other method #
 # this is all methods of python dict key value pair 
 
-               File input/output (Io) 
+               Chapter no 4--> (Tupple)
+mezbah = (2,45,983,1534,89325)
+istiak= ("mezbah khan",'Noman bhai','mamun bhai','tomo bhai','sagor bhai')
 
-# hey python this is mezbah khan from backend developer # 
-# lets create a file i /oo and use operations # 
-# lets do this and build a successful code 3 
+# frist lets cheeck the types of those verriables # 
+print(type(mezbah))
+print(type(istiak))
+
+# As frist operation lets try indexing and slicing methods # 
+ex_tup1 = mezbah[2]
+print(ex_tup1)
+
+ex_tup2 = istiak[2]
+print(ex_tup2)  
+ 
+ex_tup3 = mezbah[0:]
+print(ex_tup3)
+
+ex_tup4 = istiak[0:]
+print(ex_tup4)
+
+ex_tup5 = mezbah[:-3]
+print(ex_tup5)
+
+ex_tup6 = istiak[:-2]
+print(ex_tup6)
+
+ex_tup7 = mezbah [2:4]
+print(ex_tup7)
+
+ex_tup8 = istiak[1:3]
+print(ex_tup8)
+
+# This is indexing and slicing examples # 
+# we are goona concatinate tupls #  
+con1 =  (mezbah + istiak)
+print(con1)
+
+   # for example lets create an another tup and concatinate both # 
+Repo_acc = ('chattgpt','Gimini','blueebard', 'skyff',344) 
+project_acc= (12,'Github','Gitlab','Git','Terminal')
+
+github_acc= (Repo_acc + project_acc)
+print(github_acc)
+
+   # This who anyone can concatinate tupples # 
+   #lets count the tupple # 
+   
+ex_tup9= mezbah.count(2)
+print(ex_tup9)
+
+ex_tup10 = istiak.count("sagor bhai")
+print(ex_tup10)
+
+ #c this is count method example # 
+ # Lets try the index method # 
+ 
+ex_tup11= mezbah.index(2)
+print(ex_tup11)
+
+ex_tup12= istiak.index("mamun bhai")
+print(ex_tup12)
+
+ # A Tupple have imutibility So we can modify # 
+ # lets modify both methods # 
+ 
+modified_mezbah = mezbah + (1000,)
+print("Modified Mezbah Tuple:", modified_mezbah)
+
+modified_istiak = istiak[:1] + ("Updated Name",) + istiak[2:]
+print("Modified Istiak Tuple:", modified_istiak)
+
+# This  is all example of tupple in python # 
+
+             Chapter no 5--> (set functions) 
+     # we are gonna explore the set function in python # 
+
+mezbah = {1,45,767,3498,23098}
+istiak = {'python','java','javascript','c++','c#'}
+
+# first lets checck the types of those verriables # 
+print(type(mezbah))
+print(type(istiak)) 
+   # Both arew set type #
+   # les started our operation # 
+   # we have use (set) option for constroctoing sets # 
+   
+ex_set1 = set([23,67,33,323])
+print(ex_set1)
+print(type(ex_set1))
+
+# started from basic like adding elements # 
+# lets try or add the in both indentifiers # 
+ex_set2= mezbah.add(781267)
+print(mezbah)
+
+ex_set3 = istiak.add('PhP')
+print(istiak)
+
+# succesfully worked # 
+# come i show you how to copy sets # 
+ex_set4= mezbah.copy()
+print(ex_set4)
+
+ex_set5=istiak.copy()
+print(ex_set5)
+
+# lets use the remove item of set function # 
+ex_set6= mezbah.copy()
+ex_set6.remove(45)
+print(ex_set6)
+
+ex_set7 = istiak.copy()
+ex_set7.remove('c#')
+print(ex_set7)
+
+   # anotherwise we can use the pop() method in set # 
+ex_set8= mezbah.copy()
+ex_set8.pop()   # remove the frist index 
+print(ex_set8)
+
+# This is last example of set # 
+# we are using the clear () option # 
+
+ex_set9= mezbah.copy()
+ex_set9.clear()
+print(ex_set9)
+
+ex_set10= istiak.copy()
+ex_set10.clear()
+print(ex_set10)
+
+  # This is all exammples of set functions # 
+
+               File input/output (Io) 
+      # This is file input / output (i/o) Chaprter # 
 
 with open ("demo.txt","w") as file :
     data = file .write("Hello world\n")
