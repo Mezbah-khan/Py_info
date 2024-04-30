@@ -2,6 +2,114 @@
 # we are going to coverup python with all built-in data and with own examples # 
 # lets do this and lets started with some basic Datatypes and static # 
 
+               Chapter no 1 -->  strings methods 
+str1 =  "Hello wrold"
+str2 = "Python is a programming language and I love it"
+str3= "I am a student of computer science and i love programming"
+
+  # this is our example string, So we have to perform operation on this example # 
+  # Lets good started . frist use the check the type of strs # 
+print(type(str1)) 
+print(type(str2)) 
+print(type(str3)) 
+
+# okey lets print those strs lenght # 
+print(len(str1))
+print(len(str2))
+print(len(str3))
+
+ # Cool lets use the indexing of strings # 
+ex_str1 = str1[0:5]
+print(ex_str1)
+
+ex_str2 = str1[3]
+print(ex_str2)
+
+ex_str3 = str2[1:23]
+print(ex_str3)
+
+ex_str4 = str3[:57]
+print(ex_str4)
+
+# This is string indexing and slicing of strings # 
+# So lets move forword --> Come on i show you to use the (\n) # 
+
+ex_str5 = "hello\nwrold"
+print(ex_str5)
+
+# lets use the negitive index of one  last time # 
+ex_str6= str3[-32]
+print(ex_str6)
+
+ex_str7= str3[0:-4]
+print(ex_str7)
+
+# we should never use those negitive indexes # 
+# so lets move to our methods of strings as (uppercase) # 
+ex_str8 = str1.upper()
+print(ex_str8)
+
+ex_str9 = str3.upper()
+print(ex_str9)
+
+# okey lets use the lowercase method in strigs # 
+ex_str10 = str2.lower()
+print(ex_str10)
+
+ex_str11 = str3.lower()
+print(ex_str11)
+
+
+# lets use the stripts method in strigs # 
+ex_str12 = str1.strip()
+print(ex_str12)
+
+ex_str13 = str2.strip()
+print(ex_str13)
+
+# lets use the string replace method # 
+ex_str14= str1.replace("Hello",'Hi')
+print(ex_str14)
+
+ex_str15 = str2.replace("Python",'Java')
+print(ex_str15)
+
+ex_str16= str3.replace("student",'teacher')
+print(ex_str16)
+
+# all methods example is succesfully worked # 
+# so lets jumpted on split method # 
+ex_str17 =str2.split()
+print(ex_str17)
+
+ex_str18 = str3.split()
+print (ex_str18)
+
+# lets use the join methds of strings # 
+ex_str19 =  ' ' . join(ex_str10)
+
+# Okey lets  use the capitalized mmethod # 
+ex_str20 = str2.capitalize()
+print(ex_str20)
+
+#  we have already coverup our chapter # 
+# lets finished with last 2 items #
+ex_str21= str2.find("a")
+print(ex_str21)
+
+ex_str22= str3.find("student")
+print(ex_str22)
+
+# Thsis is our last method of string # 
+ex_str23= str2.count('programming')
+print(ex_str23)
+
+ex_str24 = str3.count('science')
+print(ex_str24)
+
+# This is hole examples of strings methods in Python # 
+
+          Chapter no 2 --> List methods 
 mezbah = [2,17,345,85,64,19087]  # this is our frist list [1]
 istiak = ["mezbah_khan","noman_bhai","tomo_bhai","sagor_bhai","mamun_bhai"]  # this is secend list [2]
 
