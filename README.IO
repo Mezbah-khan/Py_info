@@ -1,14 +1,15 @@
 # Hello wrold, this is mezbah khan form backend developer # 
-# we are going to coverup python with all built-in data and with own examples # 
-# lets do this and lets started with some basic Datatypes and static # 
+# we are going to coverup python with all built-in data types and with examples # 
+# lets do this and started with some basic Datatypes and static methods # 
 
                Chapter no 1 -->  strings methods 
 str1 =  "Hello wrold"
 str2 = "Python is a programming language and I love it"
 str3= "I am a student of computer science and i love programming"
 
-  # this is our example string, So we have to perform operation on this example # 
-  # Lets good started . frist use the check the type of strs # 
+  # This is our basic string example and we have to perform operation in this strs # 
+  # Lets good started # 
+  # frist lets check the types of this strs (1,2,3) # 
 print(type(str1)) 
 print(type(str2)) 
 print(type(str3)) 
@@ -18,21 +19,22 @@ print(len(str1))
 print(len(str2))
 print(len(str3))
 
- # Cool lets use the indexing of strings # 
-ex_str1 = str1[0:5]
+# exclient lets use the indexing of strings also who to slice # 
+ex_str1 = str1[0:5]  # slicing
 print(ex_str1)
 
-ex_str2 = str1[3]
+ex_str2 = str1[3] # Indexing
 print(ex_str2)
 
-ex_str3 = str2[1:23]
+ex_str3 = str2[1:23] # slciing 
 print(ex_str3)
 
-ex_str4 = str3[:57]
+ex_str4 = str3[:57] # slicing 
 print(ex_str4)
 
 # This is string indexing and slicing of strings # 
 # So lets move forword --> Come on i show you to use the (\n) # 
+# also it called whitespace # 
 
 ex_str5 = "hello\nwrold"
 print(ex_str5)
@@ -41,11 +43,11 @@ print(ex_str5)
 ex_str6= str3[-32]
 print(ex_str6)
 
-ex_str7= str3[0:-4]
+ex_str7= str3[0:-4] # Negitive slicing 
 print(ex_str7)
 
 # we should never use those negitive indexes # 
-# so lets move to our methods of strings as (uppercase) # 
+# so lets move to our example of strings called uppercase() # 
 ex_str8 = str1.upper()
 print(ex_str8)
 
