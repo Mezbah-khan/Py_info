@@ -1,15 +1,16 @@
-# Hello wrold, this is mezbah khan form backend developer # 
-# we are going to coverup python with all built-in data types and with examples # 
-# lets do this and started with some basic Datatypes and static methods # 
+# Hello wrold,This is mezbah khan from backend developer 
+# In This Repository we're going to coverup python basic fundamentals with new examples everytime # 
+# So lets started with basic string (str) method and modules # 
 
                Chapter no 1 -->  strings methods 
 str1 =  "Hello wrold"
 str2 = "Python is a programming language and I love it"
 str3= "I am a student of computer science and i love programming"
 
-  # This is our basic string example and we have to perform operation in this strs # 
+  # This is our basic (QUA) string and we've to perform operation in this strings # 
   # Lets good started # 
   # frist lets check the types of this strs (1,2,3) # 
+
 print(type(str1)) 
 print(type(str2)) 
 print(type(str3)) 
@@ -33,8 +34,7 @@ ex_str4 = str3[:57] # slicing
 print(ex_str4)
 
 # This is string indexing and slicing of strings # 
-# So lets move forword --> Come on i show you to use the (\n) # 
-# also it called whitespace # 
+# So lets move forword --> Come on i show you to use the (\n) called backslashed N # 
 
 ex_str5 = "hello\nwrold"
 print(ex_str5)
@@ -46,8 +46,8 @@ print(ex_str6)
 ex_str7= str3[0:-4] # Negitive slicing 
 print(ex_str7)
 
-# we should never use those negitive indexes # 
-# so lets move to our example of strings called uppercase() # 
+# We should never use those negitive indexes # 
+# So lets move to our example of strings called uppercase() # 
 ex_str8 = str1.upper()
 print(ex_str8)
 
@@ -115,14 +115,13 @@ print(ex_str24)
 mezbah = [2,17,345,85,64,19087]  # this is our frist list [1]
 istiak = ["mezbah_khan","noman_bhai","tomo_bhai","sagor_bhai","mamun_bhai"]  # this is secend list [2]
 
-# frist lets check  this  list type #
+# frist lets check this list type #
 print(type(mezbah))  
 print(type(istiak))
 
     # All good, lets create our operations # 
-    # frist lets use the indexing methodds # 
+    # frist lets use the indexing method # 
 
-    # this is mezbah's example 
 ex_mezbah01 = mezbah.copy()
 print(ex_mezbah01[0])
 print(ex_mezbah01[4])
@@ -138,6 +137,7 @@ print(ex_istiak01[2])
 ex_mezbah02 = mezbah.copy()
 print (ex_mezbah02[0:])
 print (ex_mezbah02[:5])
+print(ex_mezbah02([::])
 print(ex_mezbah02[0:3])
 print(ex_mezbah02[2:3])
 print(ex_mezbah02[2:5])
@@ -313,12 +313,10 @@ ex_istiak15= istiak.copy()
 print(type(ex_mezbah15))
 print(type(ex_istiak15))
 
-                 Dictonary in python (dict key) 
-
-# This is complete version of list function and methods in python # 
-# hey python this is mezbah khan from backeend developer # 
-# lets create a project on github account and design with codes # 
-# lets do this using with dict key-value pair # 
+             Dictonary in python (dict key) 
+# Hey python this is mezbah khan from backend developer 
+# Lets create a project on github account and design with codes modifires 
+# Lets do this using with dict key-value pair 
 
 mezbah ={
     "name" :  "mezbah khan",
