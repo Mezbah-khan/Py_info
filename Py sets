@@ -1,5 +1,5 @@
-     Chapter no 5--> (set functions) 
-we are gonna explore the set function in python 
+    # Chapter no 5--> (set functions) 
+# we are gonna explore the set function in python 
 
 mezbah = {1,45,767,3498,23098}
 istiak = {'python','java','javascript','c++','c#'}
