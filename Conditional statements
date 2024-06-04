@@ -1,0 +1,38 @@
+## let do with anther conditional statments ##
+    
+mezbah_cxc2=str(input("Enter your beautyfull words that came from hearts : "))
+if (mezbah_cxc2==" Hello wrold"):
+    print('HEY, mezbah this is python from vs code..who can i help you ? ')
+
+if (mezbah_cxc2=="I am a software developer"):
+    print('Thats cool and glad to hear that yourare a software developer')
+
+elif (mezbah_cxc2=="What is programming"):
+    print("Programming means by computer language that usages on understanding computer language")
+
+if (mezbah_cxc2=="What is code"):
+    print('coding means you want to say ssomething  to your computer and for that you are collecting some info')
+
+if (mezbah_cxc2=="What is python"):
+    print('Python is programmimg language that usage to Ai ssoftware development and maachine learning ')
+
+elif (mezbah_cxc2=="Now what is Ai"):
+    print("Ai menas artificial intalligence and aa human  chatt-bot --> ")
+
+if (mezbah_cxc2=="Which is the most populor language in community"):
+    print('java-script is the mostt populor and demandable language in our programming community')
+
+if (mezbah_cxc2=="Which place does thee python take"):
+    print('python is the 3rd most populor language in CSC community ')
+
+elif (mezbah_cxc2=="What is the code editor or IDE"):
+    print("The code editor or IDE is a app or a progrramming eenvironment")
+
+if (mezbah_cxc2=="what is HTML"):
+    print('HTML stands for HyperText Markup Language')
+
+if (mezbah_cxc2=="what is CSS"):
+    print('CSS stands for Cascading Style Sheets')
+
+elif (mezbah_cxc2=="What is JAVA-SCRIPT"):
+    print(", it is a programming language that is commonly used to make web pages interactive")
