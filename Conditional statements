@@ -1,5 +1,30 @@
-## let do with anther conditional statments ##
-    
+# Hello wrold this is mezbah khan from backend develoeper 
+# Lets create an system bainary number checker and build this projects 
+# lets use the arthemetic operators --> 
+
+             # use the key syntax and conditional statements in python # 
+system = int ( input ( 'Enter your decimal number as system required : '))
+
+if system % 2 == 0 : 
+             print ('the number is usable as system baoinary from ')
+else :
+               print (" the system knows only bainary froms . so the computer cant known the number ")
+
+def mezbah (ax, bx ):
+    if ax > bx :
+        return ("The frist value is greater then secend value --> ")
+    elif bx > ax:
+        return ("The secend value is greater then frist value --> ")
+    else:
+        return ("The value of ax is equal to bx ")
+axes= int(input('Enter your frist value : '))
+bxes= int(input('Enter your secend value: '))
+
+s1 = mezbah(axes,bxes)
+print (s1)
+
+    #This is another  projects 
+
 mezbah_cxc2=str(input("Enter your beautyfull words that came from hearts : "))
 if (mezbah_cxc2==" Hello wrold"):
     print('HEY, mezbah this is python from vs code..who can i help you ? ')
