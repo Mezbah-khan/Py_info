@@ -36,3 +36,33 @@ if (mezbah_cxc2=="what is CSS"):
 
 elif (mezbah_cxc2=="What is JAVA-SCRIPT"):
     print(", it is a programming language that is commonly used to make web pages interactive")
+
+                  # This is another example 
+
+mezbah_cxc=   int(input("Enter your decimal  number as required in 1-00  :"))
+isitak_cxc=float(input("Enter your floating number as reqquired in 1-100 :"))
+
+if (mezbah_cxc <=100 and mezbah_cxc >=80):
+    print("your mezbah is exxclient ")
+    
+elif (mezbah_cxc <= 79 and mezbah_cxc >= 60 ):
+    print("You mark is good but need more improvement")
+
+elif(mezbah_cxc <= 34 and mezbah_cxc >= 59):
+    print("You mark is consistently poor --> need huge improvement")
+
+elif( mezbah_cxc<= 33 and mezbah_cxc>= 0):
+    print("You are fail in thiss exam . so try again leter ")
+
+if (isitak_cxc <= 100.00 and isitak_cxc >= 80.00):
+    print("Your mark is eexclient and amazzing ,istiak vai ")
+
+elif (isitak_cxc <= 79.00 and  isitak_cxc >= 60.00):
+    print("You mark is good but need more improvement istiaak vai ")
+
+elif(isitak_cxc <= 34.00 and isitak_cxc>= 59.00):
+    print("Your mark is conssistentlyy poor istiak vaai , so you need improvement")
+
+elif (isitak_cxc<=33.00 and isitak_cxc>=0.0 ):
+    print("Your fail istiak vaai , try again leter ")
+
