@@ -23,6 +23,28 @@ bxes= int(input('Enter your secend value: '))
 s1 = mezbah(axes,bxes)
 print (s1)
 
+
+   # modify this code 
+
+def check_number(value):
+    if value > 0:
+        return "Positive"
+    elif value < 0:
+        return "Negative"
+    else:
+        return "Zero"
+
+# Example usage:
+result = check_number(7)
+print(result)  # Output: Positive
+
+result = check_number(-5)
+print(result)  # Output: Negative
+
+result = check_number(0)
+print(result)  # Output: Zero
+
+
     #This is another  projects 
 
 mezbah_cxc2=str(input("Enter your beautyfull words that came from hearts : "))
@@ -90,4 +112,32 @@ elif(isitak_cxc <= 34.00 and isitak_cxc>= 59.00):
 
 elif (isitak_cxc<=33.00 and isitak_cxc>=0.0 ):
     print("Your fail istiak vaai , try again leter ")
+
+
+ # lets use the arthemetic operators n py #
+             # use the key syntax and conditional statements in python # 
+system = int ( input ( 'Enter your decimal number as system required : '))
+
+if system % 2 == 0 : 
+             print ('the number is usable as system baoinary from ')
+else:
+  print (" the system knows only bainary froms . so the computer cant known the number ")
+  
+  
+
+def mezbah (ax, bx):
+    if ax > bx :
+        return ("The frist value is greater then secend value --> ")
+    elif bx > ax:
+        return ("The secend value is greater then frist value --> ")
+    else:
+        return ("The value of ax is equal to bx ")
+axes= int(input('Enter your frist value : '))
+bxes= int(input('Enter your secend value: '))
+
+s1 = mezbah(axes,bxes)
+print (s1)
+
+
+
 
