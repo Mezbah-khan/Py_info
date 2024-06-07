@@ -114,6 +114,8 @@ elif (isitak_cxc<=33.00 and isitak_cxc>=0.0 ):
     print("Your fail istiak vaai , try again leter ")
 
 
+
+
  # lets use the arthemetic operators n py #
              # use the key syntax and conditional statements in python # 
 system = int ( input ( 'Enter your decimal number as system required : '))
@@ -123,7 +125,9 @@ if system % 2 == 0 :
 else:
   print (" the system knows only bainary froms . so the computer cant known the number ")
   
-  
+
+
+
 
 def mezbah (ax, bx):
     if ax > bx :
@@ -137,6 +141,18 @@ bxes= int(input('Enter your secend value: '))
 
 s1 = mezbah(axes,bxes)
 print (s1)
+
+def system_check ( value):
+    if value > 0:
+        return "is normal number as 1----n "
+    elif value < 0:
+        return " this number is doesnt exist in your system"
+    else :
+        return "the woreds  are exciting"
+
+user_input = float(input("Enter a number to check: "))  # Convert input to float assuming it's a numeric value
+error_check = system_check(user_input)
+print(error_check)
 
 
 
