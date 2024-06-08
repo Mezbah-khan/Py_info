@@ -1,10 +1,49 @@
 # Hello wrold this is mezbah khan from backend develoeper 
-# Lets create an system bainary number checker and build this projects 
-# lets use the arthemetic operators --> 
+# Lets create the system for only bainary nuumber checkers --> 
 
-             # use the key syntax and conditional statements in python # 
+# Hello world, welcome in this conditional program 
+class Conditions:
+    hello = 'Hello world in this conditional statements'
+    
+    # Lets create the body structure for this code 
+    def __init__(self, value: int):
+        self.value = value
+
+    @staticmethod
+    def warning() -> str:
+        return 'The system is only for binary numbers.'
+
+    # Lets create the functions for this statements
+    def val_statements(self) -> str:
+        if self.value == 0 or self.value == 1:
+            return 'Yes, the system can perform the action.'
+        elif self.value < 2:
+            return 'System cannot perform the action.'
+        else:
+            return 'Enter a valid number.'
+
+# User input function
+def get_user_input() -> int:
+    while True:
+        try:
+            user_input = int(input('Enter a number to check: '))
+            return user_input
+        except ValueError:
+            print('Please enter a valid integer.')
+
+# Main logic
+if __name__ == "__main__":
+    user_input = get_user_input()
+    system_check = Conditions(user_input)
+
+    # Display outputs
+    print(system_check.hello)
+    print(system_check.warning())
+    print(system_check.val_statements())
+  
+
+                # This is secend project (2) 
 system = int ( input ( 'Enter your decimal number as system required : '))
-
 if system % 2 == 0 : 
              print ('the number is usable as system baoinary from ')
 else :
@@ -127,8 +166,6 @@ else:
   
 
 
-
-
 def mezbah (ax, bx):
     if ax > bx :
         return ("The frist value is greater then secend value --> ")
@@ -141,18 +178,6 @@ bxes= int(input('Enter your secend value: '))
 
 s1 = mezbah(axes,bxes)
 print (s1)
-
-def system_check ( value):
-    if value > 0:
-        return "is normal number as 1----n "
-    elif value < 0:
-        return " this number is doesnt exist in your system"
-    else :
-        return "the woreds  are exciting"
-
-user_input = float(input("Enter a number to check: "))  # Convert input to float assuming it's a numeric value
-error_check = system_check(user_input)
-print(error_check)
 
 
 
