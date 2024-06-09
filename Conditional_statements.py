@@ -43,6 +43,56 @@ if __name__ == "__main__":
   
 
                 # This is secend project (2) 
+
+import numpy as np
+# Base class
+class Project:
+    hello = 'Welcome to this mini project'
+
+    def __init__(self, arr):
+        self.arr = arr
+
+    @staticmethod
+    def warning():
+        print('Only integer values are required.')
+
+# Derived class
+class Compare(Project):
+
+    def fun_val(self, ax, bx):
+        if self.arr[ax] > self.arr[bx]:
+            print('The 1st dimension is greater than the 2nd dimension.')
+        elif self.arr[ax] < self.arr[bx]:
+            print('The 2nd dimension is greater than the 1st dimension.')
+        else:
+            print('Both dimensions are equal.')
+
+# Main logic
+if __name__ == "__main__":
+    # Display the greeting message
+    print(Project.hello)
+    
+    # Show the warning message
+    Project.warning()
+    
+    # User input
+    user_input01 = int(input('Enter your value for the first dimension: '))
+    user_input02 = int(input('Enter your value for the second dimension: '))
+    
+    # Create the array
+    arr1 = np.array([user_input01, user_input02])
+    
+    # Initialize the comparison object
+    system_check = Compare(arr1)
+    
+    # Compare the values
+    system_check.fun_val(0, 1)
+
+
+             #    THis is 3rd project (3) --> 
+
+
+
 system = int ( input ( 'Enter your decimal number as system required : '))
 if system % 2 == 0 : 
              print ('the number is usable as system baoinary from ')
@@ -62,29 +112,9 @@ bxes= int(input('Enter your secend value: '))
 s1 = mezbah(axes,bxes)
 print (s1)
 
-
-   # modify this code 
-
-def check_number(value):
-    if value > 0:
-        return "Positive"
-    elif value < 0:
-        return "Negative"
-    else:
-        return "Zero"
-
-# Example usage:
-result = check_number(7)
-print(result)  # Output: Positive
-
-result = check_number(-5)
-print(result)  # Output: Negative
-
-result = check_number(0)
-print(result)  # Output: Zero
+                  # This is 4th project (4th) --> 
 
 
-    #This is another  projects 
 
 mezbah_cxc2=str(input("Enter your beautyfull words that came from hearts : "))
 if (mezbah_cxc2==" Hello wrold"):
@@ -122,8 +152,10 @@ if (mezbah_cxc2=="what is CSS"):
 
 elif (mezbah_cxc2=="What is JAVA-SCRIPT"):
     print(", it is a programming language that is commonly used to make web pages interactive")
+    
 
-                  # This is another example 
+                  # This is 5th projects (5th) --> 
+
 
 mezbah_cxc=   int(input("Enter your decimal  number as required in 1-00  :"))
 isitak_cxc=float(input("Enter your floating number as reqquired in 1-100 :"))
@@ -151,34 +183,6 @@ elif(isitak_cxc <= 34.00 and isitak_cxc>= 59.00):
 
 elif (isitak_cxc<=33.00 and isitak_cxc>=0.0 ):
     print("Your fail istiak vaai , try again leter ")
-
-
-
-
- # lets use the arthemetic operators n py #
-             # use the key syntax and conditional statements in python # 
-system = int ( input ( 'Enter your decimal number as system required : '))
-
-if system % 2 == 0 : 
-             print ('the number is usable as system baoinary from ')
-else:
-  print (" the system knows only bainary froms . so the computer cant known the number ")
-  
-
-
-def mezbah (ax, bx):
-    if ax > bx :
-        return ("The frist value is greater then secend value --> ")
-    elif bx > ax:
-        return ("The secend value is greater then frist value --> ")
-    else:
-        return ("The value of ax is equal to bx ")
-axes= int(input('Enter your frist value : '))
-bxes= int(input('Enter your secend value: '))
-
-s1 = mezbah(axes,bxes)
-print (s1)
-
 
 
 
